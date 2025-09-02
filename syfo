@@ -1,0 +1,11 @@
+echo "SYSTEM INFORMATION"
+echo
+echo "Date and Time :  $(date)"
+echo
+echo "Your Up Time : $(uptime -p)"
+echo
+echo "Disk Usage :"
+df -H
+echo 
+echo "Memory Allocation" 
+free -g
